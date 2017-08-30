@@ -20,6 +20,7 @@
 		852D897C1F56C01B0046FA25 /* CaptainHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CaptainHook.h; path = CaptainHook/CaptainHook.h; sourceTree = "<group>"; };
 		852D897E1F56C01B0046FA25 /* WeChatWebEmoticon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatWebEmoticon.m; sourceTree = "<group>"; };
 		852D89801F56C01B0046FA25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		852D89861F56C0400046FA25 /* WeChatWebEmoticonHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeChatWebEmoticonHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		852D89761F56C01B0046FA25 /* WeChatWebEmoticon */ = {
 			isa = PBXGroup;
 			children = (
+				852D89861F56C0400046FA25 /* WeChatWebEmoticonHeader.h */,
 				852D89771F56C01B0046FA25 /* WeChatWebEmoticon.h */,
 				852D89791F56C01B0046FA25 /* WeChatWebEmoticon.podspec */,
 				852D897E1F56C01B0046FA25 /* WeChatWebEmoticon.m */,
