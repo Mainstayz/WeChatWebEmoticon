@@ -63,7 +63,6 @@ CHOptimizedMethod(2,self, void, WebviewJSEventHandler_saveImage, actionSheet,WCA
                                 wrap.source = 1;
                                 wrap.md5 = md5;
                                 EmoticonCustomManageAddLogic* addlogic =  [[objc_getClass("EmoticonCustomManageAddLogic") alloc] init];
-                                addlogic.delegate = (MMWebViewController *)self.webviewController;
                                 [(MMWebViewController *)self.webviewController setAddLogic:addlogic];
                                 [addlogic startAddEmoticonWithWrap:wrap];
                                 
